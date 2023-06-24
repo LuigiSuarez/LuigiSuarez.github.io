@@ -4,15 +4,16 @@
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
-    
 
 }
-
 .nav{
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
     height: 80px;
-    background-color: var(--color-terciario);  
+    background-color: var(--color-terciario); 
+    position: sticky; 
+    top: 0;
 }
 
 .nav__logo{
@@ -20,6 +21,9 @@
     text-decoration: none;
     width: 25%;
     padding-left: 50px;
+}
+.scroll-link{
+    scroll-margin-top: 200px;
 }
 
 .nav__ul{
