@@ -6,51 +6,7 @@
     font-family: 'Montserrat', sans-serif;
 
 }
-.nav{
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    align-items: center;
-    height: 80px;
-    background-color: var(--color-terciario); 
-    position: sticky; 
-    top: 0;
-}
 
-.nav__logo{
-    color: white;
-    text-decoration: none;
-    width: 25%;
-    padding-left: 50px;
-}
-.scroll-link{
-    scroll-margin-top: 200px;
-}
-
-.nav__ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-    width: 75%;
-
-}
-
-.nav__a{
-    color: white;
-    text-decoration: none;
-}
-.nav__li{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-.nav__li:hover{
-    background-color: var(--color-celeste);
-    transition: 1s;
-    font-size: 1.6rem;
-}
 
 .section{
     display: flex;
@@ -105,10 +61,6 @@
         margin-right: 50px;
     }
 
-    .nav__a{
-        font-size: 1rem;
-        margin-right: 10px;
-    }
     .informacion__imagen{
         justify-content: center;
         margin: auto;
