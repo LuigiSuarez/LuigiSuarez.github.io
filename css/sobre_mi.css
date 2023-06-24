@@ -1,0 +1,53 @@
+.main{
+    
+    font-size: 1.5rem;
+   
+}
+.sobre_mi{
+    background-color: var(--color-secundario);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+.sobre_mi__titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+  
+   
+}
+
+
+.sobre_mi__parrafo{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 3rem;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .main{
+        font-size: 1rem;
+    }
+    .sobre_mi__titulo{
+
+        font-size: 2rem;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .sobre_mi__titulo{
+        font-size: 1.5rem;
+        font-weight: 700;
+      
+       
+    }
+    
+    .sobre_mi__parrafo{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        
+    }
+    
+
+}
+

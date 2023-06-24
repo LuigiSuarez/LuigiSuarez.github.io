@@ -1,0 +1,139 @@
+
+
+
+.contacto{
+    background-color: var(--color-secundario);
+    display: flex;
+    justify-content: center;
+}
+.contacto__container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 5%;
+    
+}
+.contacto__imagen{
+    width: 45%;
+    height: auto;
+   
+    padding-right: 50px;
+}
+.contacto__texto{
+    width: 50%;
+  
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__titulo{
+    font-family: var(--font-titulos);
+    font-size: 2.5rem;
+}
+.contacto__texto__parrafo{
+    font-family: var(--font-textos);
+}
+
+.form__campo{
+    background-color: white;
+    padding: 1rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__campo label{
+    font-family: var(--font-titulos);
+    font-size: 1.2rem;  
+}
+
+.form__campo input{
+    font-family: var(--font-titulos);
+    border-radius: 5px;
+    border-color: var(--color-terciario);
+    padding: 1rem;
+}
+
+.form__campo input::placeholder{
+    
+    font-size: 1.2rem;
+    color: var(--color-terciario);
+}
+
+.form__campo textarea{
+    font-family: var(--font-titulos);
+    border-radius: 5px;
+    border-color: var(--color-terciario);
+    padding: 1.2rem;
+}
+
+.form__campo textarea::placeholder{
+    font-size: 1.2rem;
+    color: var(--color-terciario);
+}
+
+
+.form_button{
+    width: 300px;
+    height: 55px;
+    font-family: var(--font-textos);
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: var(--color-terciario);
+    border: none;
+}
+
+.form_button:hover{
+    background-color: white;
+    color: var(--color-terciario);
+    transition: 1.5s;
+}
+
+@media screen and (max-width: 768px) {
+ 
+    .contacto__imagen{
+        display: none;
+    }
+    .contacto__container{    
+        width: 100%;
+        padding: 50px;
+
+    }
+    .contacto__texto{
+        min-width: 100%;
+    }
+    .form_button{ 
+        width: 95%;
+    }
+   
+}
+
+@media screen and (max-width: 480px) {
+ 
+    .contacto__titulo{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .contacto__texto__parrafo{
+        font-size: 1rem;
+    }
+    .form__campo label{
+    
+        font-size: .9rem;  
+    }
+    .form__campo input::placeholder{
+        font-size: .9rem; 
+    }
+    .form__campo textarea::placeholder{
+        font-size: .9rem;  
+    }
+    
+   
+}
