@@ -28,6 +28,7 @@
 }
 
 .nav__a{
+      font-size: 1em+1vw;
     color: white;
     text-decoration: none;
 }
@@ -76,7 +77,7 @@
 @media screen and (max-width: 768px) {
     
     .nav__a{
-        font-size: 1rem;
+        font-size: 1em+1vw;
         margin-right: 10px;
 
     }

@@ -50,6 +50,25 @@
 }
 
 
+
+@media screen and (max-width: 1200px) {
+   
+    .skills_hobbies__ul{
+        height: auto;
+        width: 100%;
+    
+    }
+
+    .skills_hobbies__li{
+        box-sizing: border-box;
+        margin-top: 20px;
+        height: 150px;
+        width: 30%;
+    }
+}
+
+
+
 @media screen and (max-width: 768px) {
    
     .skills_hobbies__ul{

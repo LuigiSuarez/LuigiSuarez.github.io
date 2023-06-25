@@ -6,8 +6,13 @@
 .experiencia_profesional__titulo{
     font-family: var(--font-titulos);
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.5em;
     margin-bottom: 50px;
+}
+
+.experiencia__parrafo{
+    text-align: center;
+    font-size: 1em+1vw;
 }
 .experiencia_card{
     display: flex;
@@ -30,18 +35,19 @@
 }
 
 .buton__container{
+    width: 80%;
     margin-top: 5%;
     display: flex;
     justify-content: center;
 
 }
 .experiencia__buton{
-    width: 150px;
+    width: 45%;
     height: 50px;
     font-family: var(--font-textos);
     font-weight: bold;
     color: white;
-    font-size: 1rem;
+    font-size: 0.5em +1vw;
     border-radius: 15px;
     margin-left: 10px;
     margin-right: 10px;

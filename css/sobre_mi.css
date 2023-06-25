@@ -20,14 +20,14 @@
 
 .sobre_mi__parrafo{
     font-family: 'Open Sans', sans-serif;
-    line-height: 3rem;
+    line-height: 3em;
     
 }
 
 @media screen and (max-width: 768px) {
     .main{
         font-size: 1rem;
-    }
+    } 
     .sobre_mi__titulo{
 
         font-size: 2rem;
