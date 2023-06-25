@@ -52,14 +52,15 @@
     font-family: var(--font-titulos);
     font-weight: 500;
     line-height: normal;
-    padding-top: 5%;
+    padding-top: 2%;
     padding-left: 5%;
 }
 .card__sub_titulo{
     color: white;
     font-family: var(--font-textos);
-    font-size: smaller;
+    font-size: 0.6em;
     padding-left: 5%;
+    margin-bottom: 50px;
 }
 
 @media screen and (max-width: 768px) {
