@@ -41,8 +41,12 @@
     justify-content: center;
 
 }
+.button__a{
+    width: 100%;
+}
+
 .experiencia__buton{
-    width: 45%;
+    width: 80%;
     height: 50px;
     font-family: var(--font-textos);
     font-weight: bold;
