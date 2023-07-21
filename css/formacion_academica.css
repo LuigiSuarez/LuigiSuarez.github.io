@@ -45,6 +45,7 @@
     max-height: fit-content;
     box-sizing: border-box;
     width: 80%;
+    object-fit: cover;
 }
 
 .card__titulo{

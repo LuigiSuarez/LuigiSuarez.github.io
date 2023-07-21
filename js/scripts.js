@@ -1,3 +1,9 @@
+let texto = "texto";
+let array = Array(texto)
+console.log(array);
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
     var scrollLinks = document.querySelectorAll('.scroll-link');
     
@@ -9,9 +15,14 @@ document.addEventListener('DOMContentLoaded', function() {
         var targetElement = document.querySelector(targetId);
         var offset = targetElement.offsetTop - 80;
         
+        scrollLinks.classList.toggle('clase agregar')
+        scrollLinks.classList.toggle('clastList')
+
         window.scrollTo({
           top: offset,
           behavior: 'smooth'
+
+         
         });
       });
     }
@@ -48,4 +59,4 @@ document.addEventListener("DOMContentLoaded", function() {
         });
       });
 
-  
+    
