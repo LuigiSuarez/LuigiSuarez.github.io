@@ -1,0 +1,115 @@
+
+
+.formacion_academica{
+    background-color: var(--color-celeste);
+}
+
+.formacion_academica__titulo{
+    font-family: var(--font-titulos);
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
+.formacion_academica__cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    height: auto;
+}
+
+.card{
+    background-color: var(--color-azul-claro);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 400px;
+    width: 30%;
+}
+
+.card__container{
+    background-color: white ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80%;
+
+}
+.card__imagen{
+    padding: 10%;
+    max-height: fit-content;
+    box-sizing: border-box;
+    width: 80%;
+    object-fit: cover;
+}
+
+.card__titulo{
+    color: white;
+    font-family: var(--font-titulos);
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+.card__sub_titulo{
+    color: white;
+    font-family: var(--font-textos);
+    font-size: 0.6em;
+    padding-left: 5%;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+   
+    .formacion_academica__titulo{
+        font-size: 2rem; 
+    }
+
+    .formacion_academica__cards{
+       padding: 20px;
+    }
+
+    .card{
+        height: 180px;
+        width: 30%;
+    }
+    .card__container{
+      
+        height: 70%;
+    
+    }
+}
+
+@media screen and (max-width: 480px) {
+   
+    .formacion_academica__titulo{
+        font-size: 1.5rem; 
+        font-weight: 700;
+        
+    }
+    .formacion_academica__cards{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: auto;
+     }
+     .card{
+        height: 250px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .card__container{
+        height: 80%;
+    }
+   
+    .card__sub_titulo{
+       padding-bottom: 10px;
+    }
+
+
+}
