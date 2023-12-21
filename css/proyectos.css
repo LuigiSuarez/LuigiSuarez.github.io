@@ -1,0 +1,17 @@
+.sobre-mi__titulo--proyectos{
+    
+    font-family: var(--font-principal);
+    font-size: clamp(3rem,0.5vw,2rem);
+    font-weight: 400;
+  
+} 
+
+.sobre-mi__subtitulo--proyectos{
+    font-size: 3rem;
+    
+}
+
+.sobre-mi__descripcion--proyectos{
+    font-size: 2rem;
+
+}
